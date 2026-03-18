@@ -1,6 +1,6 @@
 ### Python Dojo
 
-- Think of coding like you are stepping into a dojo and you are about to get your ass beat by a master who can bend space and time with his mind.
+- Think of coding like you are stepping into a dojo and you are about to learn form a master who can bend space and time with his mind.
 - The science of computing is the dojo master, the language is the martial art.
 - It will ultimately sharpen you in ways you never thought possible, but the hard work has to be endured.
 - The best way to learn code is by writing it. Practice and repetition.
