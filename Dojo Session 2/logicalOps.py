@@ -84,7 +84,7 @@ def divideIfGreaterThanAndLessThan(inputNumber):
     elif (inputNumber < 20) and (inputNumber > 10): # elif is short for else if -> else if inputNumber is greater than 10 and less than 20 (10 < x < 20)
         product = inputNumber * 2
         print(f"divideIfGreaterThanAndLessThan: {inputNumber} multiplied by 2 equals {product}")
-    elif (inputNumber == 69) or (inputNumber == 420): # else if inputNumber is equal to exactly 69 or 420
+    elif (inputNumber == 777) or (inputNumber == 333): # else if inputNumber is equal to exactly 777 or 333
         print(f"Nice.")
     else:
         print("Math is hard") # if condition is not explicitly handled, print "Math is hard"
