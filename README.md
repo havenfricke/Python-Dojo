@@ -13,7 +13,7 @@
 
 ### Tools you need to code
 - VS Code -> https://code.visualstudio.com/docs/setup/windows#_install-vs-code-on-windows
-- VS Code python extensions (see image in Goop Knowledge folder) -> Download VS code first, extensions are accessed within the program
+- VS Code python extensions (see image in root folder) -> Download VS code first, extensions are accessed within the program
 - The latest python package -> https://www.python.org/
 
 ### If you want to save your code in the cloud
