@@ -25,7 +25,7 @@ class Calculator:
             case _:                                        
                 self.result = "Error: Check yourself"
 
-    # --- Methods for Basic Arithmetic ---
+    # Methods for Basic Arithmetic
 
     def add(self):
         self.result = self.num1 + self.num2
