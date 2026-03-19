@@ -1,6 +1,6 @@
 ### LOGICAL OPERATORS, IF'S, AND SWITCHES (MATCHES IN PYTHON)
 
-Logical operators are the way variables / data determine process flow. Those are:
+### LOGICAL OPERATORS
 
 - (==) is equal to
 - (!=) does not equal
@@ -12,4 +12,17 @@ Logical operators are the way variables / data determine process flow. Those are
 - (or) logical or
 - (not) logical not
 
-Logical operators are used to evaluate the value of two or more variables, ultimately resulting in a True or False value.
+### IF STATEMENTS
+
+- Fundamental programming control statments
+- They allows a program to make decisions and execute different code depending on the conditions provided
+- If's ultimately evaluate true or false values (booleans) although data can be truthy or falsy depending on the language in use
+- Python considers "False", "None" (null), and 0 as falsy
+- Python considers "True", any non-zero values, and any non-empty lists, strings, or other data types as truthy
+
+### SWITCH STATEMENTS
+
+- Similar to if's, switch statements or in Python "match" statements are a control flow mechanism 
+- They allows a program to execute different code depending on the condition of the initial value
+- The most common data types that switches use to determine the control flow are integers (int)
+- Keyword "case" determines what logic will be executed given the condition of the initial value the switch statement is based on 
