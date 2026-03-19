@@ -1,2 +1,0 @@
-Spin up RHEL 10 VM
-libvirt data store for VM
