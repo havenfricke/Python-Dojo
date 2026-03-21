@@ -23,8 +23,8 @@
 
 ### GETTERS / SETTERS
 
-- Getters and setters are a way to data handling within a class and provide utility around allowed and disallowed values within the class
+- Getters and setters are a way to handle data within a class and provide utility around allowed and disallowed values within the class
 - With getters and setters we can define what information is allowed to be modified and retrieved
 - A class with both a get and a set has read and write permissions
-- A class with only a getting is read-only
+- A class with only a getter is read-only
 - A class with a setter is write-only

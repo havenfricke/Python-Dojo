@@ -38,7 +38,7 @@
 - To install flask, make sure your environment is activated in the CLI (terminal), then use `pip install flask`.
 - This will install the packages in the "Lib" folder that was auto-installed when the Python virtual environment was created.
 - Now in the root of your "Dojo Session 7" folder, use CLI commands `touch app_api.py` and `touch app.py`.
-- There should now be a files named app_api.py and app.py in the root of your "Dojo Session 7" folder and an uto-generated virtual environment folder alongside these. 
+- There should now be a files named app_api.py and app.py in the root of your "Dojo Session 7" folder and an auto-generated virtual environment folder alongside these. 
 
 
 ### PYTHON INTERPRETERS

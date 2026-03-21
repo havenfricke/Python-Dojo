@@ -7,7 +7,7 @@
 - Classes are blueprints to objects, python is an object oriented language.
 - Think of a class as an object contructor or printing press with the ability for custom utility
 - Again, being thinking of the S in SOLID principles - Single-responsibility principle
-- A class use only have one responsibility in the context of its use
+- A class use only having one responsibility in the context of its use
 
 ### WHILE LOOPS
 - While loops will run until a condition evaluates to false or falsy 
