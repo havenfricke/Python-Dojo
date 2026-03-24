@@ -13,7 +13,7 @@ The general and most commonly used types in computer science are:
 
 - String (A word written with a speakable human language)
 - Character (One Letter or symbol that Strings are derived form)
-- Integer (A word without a decimal point)
+- Integer (A number without a decimal point)
 - Boolean (false / true, 0 / 1)
 - Float / Double (A Number with a decimal point. A float uses less memory to store the fractional values after the decimal, a double stores more)
 
