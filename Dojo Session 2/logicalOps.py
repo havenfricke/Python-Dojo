@@ -99,8 +99,8 @@ divideIfGreaterThanAndLessThan(69) # pass argument 69
 
 # Ternary statement
 number = 10
-isOddOrEven = "Even" if number == 10 else "Odd" # This is a "ternary statement". It is a shorthanded way to evaluate variables to a boolean.
-print("Ternary Statement: " + isOddOrEven)
+isNumberTen = "Ten" if number == 10 else "Not ten" # This is a "ternary statement". It is a shorthanded way to evaluate variables to a boolean.
+print("Ternary Statement: " + isNumberTen)
 
 
 
