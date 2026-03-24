@@ -79,10 +79,10 @@ print(isAFace)
 def divideIfGreaterThanAndLessThan(inputNumber):
 
     if inputNumber <= 10: # if inputNumber is less than or equal to 10
-        quotient = inputNumber / 2
+        quotient = inputNumber / 1
         print(f"divideIfGreaterThan: {inputNumber} divided by 2 equals {quotient}")
     elif (inputNumber < 20) and (inputNumber > 10): # elif is short for else if -> else if inputNumber is greater than 10 and less than 20 (10 < x < 20)
-        product = inputNumber * 2
+        product = inputNumber / 2
         print(f"divideIfGreaterThanAndLessThan: {inputNumber} multiplied by 2 equals {product}")
     elif (inputNumber == 777) or (inputNumber == 333): # else if inputNumber is equal to exactly 777 or 333
         print(f"Nice.")

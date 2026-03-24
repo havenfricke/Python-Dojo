@@ -23,6 +23,6 @@
 ### SWITCH STATEMENTS
 
 - Similar to if's, switch statements or in Python "match" statements are a control flow mechanism 
-- They allows a program to execute different code depending on the condition of the initial value
+- They allow a program to execute different code depending on the condition of the initial value
 - The most common data types that switches use to determine the control flow are integers (int)
 - Keyword "case" determines what logic will be executed given the condition of the initial value the switch statement is based on 
