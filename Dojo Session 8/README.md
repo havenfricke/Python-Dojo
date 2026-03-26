@@ -1,5 +1,7 @@
 ### SUBPROCESS (PYTHON LIBRARY), AND CLI AUTOMATION
 
+**The CLI commands in this dojo are not for windows. Consider switching to linux (RHEL) to participate.**
+
 ### SUBPROCESS
 - This is a built-in python library specifically for running CLI commands from a python program
 - The run() method is primarily responsible for executing commands
