@@ -15,7 +15,7 @@ class RHELAutomator:
                 check=True              # and returns a CompletedProcess instance, which contains the results of the execution.
             )
 
-            return res.stdout.strip()  # return the response from standard output (capture_output=True argument enables this)
+            return res.stdout.strip()  # return the response from standard output (capture_output=True argument enables stdout)
         
         except subprocess.CalledProcessError as e:  # a Python exception raised when a command executed via the subprocess 
                                                     # module returns a non-zero exit code, indicating that the command failed.
