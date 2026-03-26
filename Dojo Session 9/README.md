@@ -68,4 +68,4 @@ ansible webservers -i inventory.ini -m command -a "uptime"
 ansible-playbook -i inventory.ini setup_webserver.yml -K
 ```
 
-NOTE: Note: The -K or --ask-become-pass flag prompts you for the remote user's sudo password, which is required for package installation
+*The -K or --ask-become-pass flag prompts you for the remote user's sudo password, which is required for package installation*
