@@ -21,13 +21,17 @@ ssh username@192.168.1.50
 mkdir ~/ansible-demo
 
 cd ~/ansible-demo
+```
 
+```ini
 [webservers]
 192.168.1.50
 
 [dbservers]
 192.168.1.51
+```
 
+```Bash
 ansible all -i inventory.ini -m ping
 
 ansible webservers -i inventory.ini -m command -a "uptime"
