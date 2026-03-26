@@ -39,14 +39,23 @@ ansible webservers -i inventory.ini -m command -a "uptime"
 
 ```yaml
 ---
-- name: Configure Web Server
+- name: Configure Secure Web Server (HTTPS)
   hosts: webservers
   become: yes
   tasks:
-    - name: Ensure Apache is installed
+    - name: Install Apache and the SSL module
       ansible.builtin.dnf:
-        name: httpd
+        name: 
+          - httpd
+          - mod_ssl
         state: present
+
+    - name: Ensure firewalld permits HTTPS traffic
+      ansible.posix.firewalld:
+        service: https
+        permanent: true
+        state: enabled
+        immediate: true
 
     - name: Ensure Apache is running and enabled on boot
       ansible.builtin.systemd:
