@@ -46,6 +46,10 @@ if vm_count:                                                    # If vm_count ex
             
         cockpit_install = input("Press enter to install Cockpit...")                    # Prompt the user for next step
 
+        cockpit_line = bot.run_command(['sudo', 'dnf', 'install', 'cockpit', '-y'])
+
+        print(cockpit_line)
+
         cockpit_line = bot.run_command(['sudo', 'dnf', 'install', 'cockpit-machines', '-y']) # Run command for cockpit
 
         print(cockpit_line)                                                             # NOTE: For some reason this did not require a loop???
